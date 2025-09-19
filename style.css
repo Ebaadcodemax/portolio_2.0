@@ -119,6 +119,8 @@ body {
     box-shadow: 0 10px 50px rgba(255, 255, 255, 0.6);
 }
 
+.hero.inactive{
+    display:none;
 .hero-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -633,7 +635,9 @@ body {
         display: flex;
     }
 
-   
+   .hero.inactive{
+       display:none;
+   }
 
     .nav-menu {
         display: none;
@@ -716,4 +720,5 @@ body{
 
 .hero.active {
     display: flex;
+
 }
