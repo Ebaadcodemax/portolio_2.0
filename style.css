@@ -405,7 +405,7 @@ body {
 .projoke{
     display: block;
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     color: rgb(255, 255, 255);
     margin: auto;
     padding: 20px;
@@ -605,8 +605,14 @@ body {
 }
 
 .contact-item h3 {
-    color: var(--cream);
+    color: white;
     margin-bottom: 0.5rem;
+    text-decoration:white underline;
+}
+
+.contact-item p{
+    color:white;
+    text-decoration:white underline;
 }
 
 .social-links {
@@ -731,3 +737,4 @@ body{
 .hero.active {
     display: flex;
 }
+
