@@ -12,25 +12,14 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: black;
-    /* background: url(bg.jpg);
+    background: url(bg.jpg);
     background-size: cover;
     background-position: center;
-    backdrop-filter: brightness(0.3); */
+    backdrop-filter: brightness(0.3);
 }
 
 
-#bg-video {
-    position: fixed;
-    /* Stays fixed while scrolling */
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    background-size: cover;
-    z-index: -1;
-    align-self: auto;
-}
+
 
 /* Navigation */
 .navbar {
@@ -781,3 +770,4 @@ body {
 .hero.active {
     display: flex;
 }
+
