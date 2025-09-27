@@ -12,14 +12,16 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: black;
-    /* background: url(bg.jpg); */
+    /* background: url(bg.jpg);
     background-size: cover;
     background-position: center;
-    backdrop-filter: brightness(0.3);
+    backdrop-filter: brightness(0.3); */
 }
+
 
 #bg-video {
     position: fixed;
+    /* Stays fixed while scrolling */
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -56,7 +58,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.logo a{
+.logo a {
     font-size: 1.5rem;
     font-weight: 100;
     text-decoration: none;
@@ -68,7 +70,7 @@ body {
     list-style: none;
     gap: 2rem;
     background-color: inherit;
-    
+
     color: rgb(255, 255, 255);
 }
 
@@ -126,13 +128,13 @@ body {
     padding: 0 2rem;
     scrollbar-arrow-color: #067a8e;
     text-decoration-skip: all;
-    
+
     animation: random2 10s ease-in-out infinite;
     backdrop-filter: blur(10px);
     box-shadow: 0 10px 50px rgba(255, 255, 255, 0.6);
 }
 
-.hero.inactive{
+.hero.inactive {
 
     display: none;
 
@@ -152,7 +154,7 @@ body {
     font-weight: 100;
     color: white;
     margin-bottom: 1rem;
-    
+
     text-decoration: 0.5px rgb(236, 233, 233) underline;
     text-decoration-style: dotted;
     text-underline-offset: 5px;
@@ -161,7 +163,7 @@ body {
     -webkit-background-clip: text;
 }
 
-.hero-content h1:hover{
+.hero-content h1:hover {
     box-shadow: 0 10px 50px rgba(167, 71, 71, 0.6);
     transition: 600ms;
 }
@@ -171,22 +173,22 @@ body {
     color: white;
     margin-bottom: 1rem;
     font-weight: 100;
-    
+
 }
 
-.subtitle:hover{
-    
+.subtitle:hover {
+
     box-shadow: 0 10px 50px rgba(52, 203, 168, 0.6);
     transition: 600ms;
 
 }
 
-.tagline:hover{
+.tagline:hover {
     box-shadow: 0 10px 50px rgba(184, 18, 81, 0.6);
     transition: 600ms;
 }
 
-.tagline{
+.tagline {
     font-weight: 100;
 }
 
@@ -232,7 +234,7 @@ body {
     background: url(pfp.jpg);
     background-position: top;
     border-radius: 10%;
-    filter:contrast(0.9);
+    filter: contrast(0.9);
     filter: brightness(0.7);
     display: flex;
     align-items: center;
@@ -242,7 +244,7 @@ body {
     font-weight: bold;
     animation: floatY 6s ease-in-out infinite;
     box-shadow: 0 10px 50px rgba(12, 40, 220, 0.5);
-    
+
 }
 
 @keyframes floatY {
@@ -414,15 +416,15 @@ body {
 }
 
 
-.projoke{
+.projoke {
     display: block;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     color: rgb(255, 255, 255);
     margin: auto;
     padding: 20px;
-    
-    
+
+
 
 
 }
@@ -436,7 +438,7 @@ body {
     box-shadow: 0px 2px 5px white;
     transition: all 0.3s ease;
     text-align: center;
-    
+
     animation: random ease-in-out 10s infinite;
 }
 
@@ -476,8 +478,8 @@ body {
     font-weight: 200;
     color: rgb(255, 255, 255);
     margin-bottom: 0.5rem;
-    text-decoration:rgb(0, 0, 0) underline;
-   
+    text-decoration: rgb(0, 0, 0) underline;
+
 }
 
 .projects-issuer1 {
@@ -622,7 +624,7 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.contact-item p{
+.contact-item p {
     color: white;
     text-decoration: white underline;
     margin-bottom: 0.5rem;
@@ -635,6 +637,13 @@ body {
     gap: 2rem;
     margin-top: 2rem;
 }
+
+
+
+
+
+
+
 
 .social-link {
     display: inline-block;
@@ -651,6 +660,18 @@ body {
     transition: all 0.3s ease;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .social-link:hover {
     background: var(--light-blue);
     transform: translateY(-3px);
@@ -659,10 +680,12 @@ body {
 
 @media (max-width: 768px) {
     .mobile-menu-toggle {
+
         display: flex;
+
     }
 
-   
+
 
     .nav-menu {
         display: none;
@@ -685,8 +708,8 @@ body {
         display: flex;
     }
 
-    .hero.inactive{
-        display:none;
+    .hero.inactive {
+        display: none;
     }
 
     .hero-container {
@@ -694,7 +717,8 @@ body {
         text-align: center;
     }
 
-    
+
+
 
     .hero-content h1 {
         font-size: 2.5rem;
@@ -714,14 +738,14 @@ body {
         padding: 3rem 1rem;
     }
 
-    
+
     .projects-grid,
     .certificates-grid {
         grid-template-columns: 1fr;
     }
 
-    .projects-icon1{
-        
+    .projects-icon1 {
+
         align-items: center;
         margin: auto;
     }
@@ -733,14 +757,20 @@ html {
 }
 
 
+
+
+
+
+
 .section:not(.hero) {
     display: none;
 }
-body{
+
+body {
     padding-right: 1rem;
 }
 
-.projects-grid1{
+.projects-grid1 {
     padding-right: 1rem;
 }
 
@@ -751,6 +781,3 @@ body{
 .hero.active {
     display: flex;
 }
-
-
-
