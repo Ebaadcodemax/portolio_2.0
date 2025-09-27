@@ -18,6 +18,19 @@ body {
     backdrop-filter: brightness(0.3);
 }
 
+#bg-video {
+    position: fixed;
+    /* Stays fixed while scrolling */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    z-index: -1;
+    align-self: auto;
+}
+
 /* Navigation */
 .navbar {
     position: sticky;
@@ -739,3 +752,4 @@ body{
 .hero.active {
     display: flex;
 }
+
